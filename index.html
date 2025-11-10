@@ -6,6 +6,8 @@
   <style>
     :root {
       --accent: #4287f5;
+      --accent2: #e66b00;
+      --accent3: #236300;
     }
 
     a.highlight {
@@ -15,13 +17,13 @@
 
     body {
       margin: 0;
-      padding: 1rem 15rem 1rem 15rem;
+      padding: 1rem 35rem 1rem 35rem;
       font-family: 'IBM Plex Sans', 'Source Sans Pro', sans-serif;
-      background-color: #fff;
+      background-color: #ffffff;
       color: #111;
       font-weight: 300;
       max-width: none; /*1200px;*/
-      line-height: 1.2;
+      line-height: 1.3;
     }
 
     /* 모바일 (화면 너비 768px 이하)에서는 왼쪽 패딩 줄이기 */
@@ -32,14 +34,16 @@
     }
 
     h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.4rem;
-      font-weight: 400;
+      /* color: var(--accent3); */
+      font-size: 2.6rem;
+      margin-bottom: 0.2rem;
+      font-weight: 500;
     }
 
     p {
       margin: 0;
       font-size: 1.0rem;
+      /* font-weight: 350; */
     }
 
     .profile-pic {
@@ -54,10 +58,18 @@
       border: 2px solid var(--accent);
     }*/
 
-    .profile-pic img {
+    /* .profile-pic img {
       max-width: 250px;
       height: auto;
       display: block;
+    } */
+
+    .profile-pic img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
     }
 
     .links {
@@ -118,7 +130,7 @@
 <body>
 
   <h1> Jaehoon Hahm </h1>
-  <p> Ph.D. Candidate @ UIUC Physics </p>
+  <p> Physics Ph.D. Candidate, UIUC </p>
 
   <div class="profile-pic">
     <img src="dolomites_square.jpg" alt="Profile photo" />
@@ -128,21 +140,35 @@
     <a href="mailto:jh141@illinois.edu">Email</a>
     <a href="https://github.com/jaehoon-hahm" target="_blank">GitHub</a>
     <a href="https://scholar.google.com/citations?user=z9RfcGQAAAAJ&hl=en" target="_blank">Google Scholar</a>
-    <a href="cv.pdf" target="_blank">CV</a>
+    <a href="Jaehoon_Hahm_CV_2025.pdf" target="_blank">CV</a>
   </div>
 
   <div class="section">
     <p>
       <!-- I’m a 2nd year Physics Ph.D. Candidate  at the University of Illinois, Urbana-Champaign, advised by <a href="https://scholar.google.com/citations?user=yIeKkzIAAAAJ&hl=en" class="highlight">Bryan Clark</a> and <a href="https://scholar.google.com/citations?hl=en&user=P6EahzcAAAAJ" class="highlight">Ge Liu</a>. Previously, I completed my M.S. at the Graduate School of Data Science, Seoul National University, 
       advised by <a href="https://scholar.google.com/citations?user=M-MfqpMAAAAJ&hl=en" class="highlight">Joonseok Lee</a>. Before that, I did my B.S. at Physics, Seoul National University. -->
-      I’m a 2nd year Physics Ph.D. Candidate  at the University of Illinois, Urbana-Champaign, advised by <a href="https://scholar.google.com/citations?user=yIeKkzIAAAAJ&hl=en" class="highlight">Bryan Clark</a>. Previously, I completed my M.S. at the Graduate School of Data Science, Seoul National University, 
-      advised by <a href="https://scholar.google.com/citations?user=M-MfqpMAAAAJ&hl=en" class="highlight">Joonseok Lee</a>. Before that, I did my B.S. at Physics, Seoul National University.
+      I’m a second-year Physics Ph.D. Candidate at the University of Illinois, Urbana-Champaign, advised by <a href="https://scholar.google.com/citations?user=yIeKkzIAAAAJ&hl=en" class="highlight">Bryan Clark</a>. <br>
+      Previously, I completed my M.S. at the Graduate School of Data Science, Seoul National University, advised by <a href="https://scholar.google.com/citations?user=M-MfqpMAAAAJ&hl=en" class="highlight">Joonseok Lee</a>. <br>
+      Before that, I completed my B.S. at Physics, Seoul National University.
     </p>
 
     <p style="margin-top: 1.2rem;">
-      I’m interested in ML + Quantum, particularly using techniques in Geometric Deep Learning, and Generative Modeling.
-      I'm currently working on Generative Model + Shadow Tomography, Riemannian Geometry + Diffusion/Flow/Markov matching based models, and Neural Quantum States + Subspace Diagonalization method.
+      I’m interested in ML + Quantum, particularly using techniques in Geometric Deep Learning, and Generative Modeling. <br>
+      I like to work in broad areas in the intersection of Physics, Differential Geometry, and ML. <br>
+      I'm currently working on:
     </p>
+
+    <ol>
+      <li>Optimal transport for local geometry preserving Diffusion/Flow/Markov matching</li>
+      <li>Discrete Flow Matching for physical/biological data</li>
+      <li>Control theoretic approaches for Energy-based models</li>
+      <li>Neural Quantum States + Subspace Diagonalization/Mixture of Experts</li>
+    </ol>
+    
+    <p>
+      Feel free to contact me via email for any exciting collaboration!
+    </p>
+
   </div>
 
   <div class="section">
@@ -197,7 +223,7 @@
       </div>
       <div class="project-desc">
         <div> Kwanseok Kim*, <b> Jaehoon Hahm*, </b> Sumin Kim, Jinhwan Sul, Byung-Hak Kim, Joonseok Lee </div>
-        <div> <b> ICCV (20th IEEE/CVF International Conference on Computer Vision), 2025, Highlight </b> </div>
+        <div> <b> <span style="color: var(--accent2);"> ICCV (20th IEEE/CVF International Conference on Computer Vision) 2025, Highlight (263/11,239 = 2.3%) </span> </b> </div>
 
         <div class="spacer"></div>
 
@@ -212,7 +238,7 @@
       </div>
       <div class="project-desc">
         <div> <b> Jaehoon Hahm*, </b> Tak Hur*, Joonseok Lee, Daniel K. Park </div>
-        <div> <b> QTML (8th International Conference on Quantum Techniques in Machine Learning), 2024 </b> </div>
+        <div> <b> <span style="color: var(--accent2);"> QTML (8th International Conference on Quantum Techniques in Machine Learning) 2024 </span> </b> </div>
 
         <div class="spacer"></div>
 
@@ -227,7 +253,7 @@
       </div>
       <div class="project-desc">
         <div> <b> Jaehoon Hahm*, </b> Junho Lee*, Sunghyun Kim, Joonseok Lee </div>
-        <div> <b> ICML (41st International Conference on Machine Learning), 2024 </b> </div>
+        <div> <b> <span style="color: var(--accent2);"> ICML (41st International Conference on Machine Learning) 2024 </span> </b> </div>
 
         <div class="spacer"></div>
 
