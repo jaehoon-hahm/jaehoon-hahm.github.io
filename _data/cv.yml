@@ -1,0 +1,63 @@
+cv:
+  name: Jaehoon Hahm
+  label: Physics Ph.D. Candidate @ University of Illinois Urbana-Champaign
+  email: jh141@illinois.edu
+  location: Urbana, Illinois
+  website: https://jaehoon-hahm.github.io/
+  sections:
+    Education:
+      - institution: University of Illinois Urbana-Champaign
+        location: Urbana, IL
+        area: Physics
+        studyType: Ph.D. candidate in Physics
+        start_date: 2024-08
+        end_date: 2028-12
+        highlights:
+          - Expected December 2028; advisor [Bryan K. Clark](https://scholar.google.com/citations?user=yIeKkzIAAAAJ&hl=en).
+          - Research in ML + quantum many-body physics, neural quantum states, and quantum Monte Carlo.
+      - institution: Graduate School of Data Science, Seoul National University
+        location: Seoul, South Korea
+        area: Data Science
+        studyType: M.S. in Data Science
+        start_date: 2022-03
+        end_date: 2024-02
+        highlights:
+          - Advisor [Joonseok Lee](https://scholar.google.com/citations?user=M-MfqpMAAAAJ&hl=en).
+          - "Thesis: Isometric Representation Learning for Disentangled Latent Space of Diffusion Models."
+      - institution: Seoul National University
+        location: Seoul, South Korea
+        area: Physics, minor in Mathematics
+        studyType: B.S. in Physics, minor in Mathematics
+        start_date: 2016-03
+        end_date: 2022-02
+        highlights:
+          - "Thesis: Improvement in Variational Quantum Algorithms by Measurement Simplification."
+          - "Mandatory military service: Republic of Korea Army, July 2019–February 2021."
+    Experience:
+      - company: Meta Reality Labs
+        position: Research Scientist Intern
+        location: Burlingame, CA
+        start_date: 2026-05
+        end_date: 2027-01
+        highlights:
+          - Working with Jogendra N. Kundu on self-distillation, self-supervised learning, and representation learning for AR/VR devices.
+          - VFMDistill explores eye tracking with zero or few target-device examples.
+    Patent:
+      - bullet: '**SummDiff: Generative Modeling of Video Summarization with Diffusion.** Korea Patent, 2025.'
+    Teaching and Service:
+      - bullet: 'Teaching Assistant, UIUC PHYS 212: University Physics, Electricity and Magnetism (2025).'
+      - bullet: 'Teaching Assistant, UIUC PHYS 435: Electromagnetic Fields I (2024).'
+      - bullet: 'Teaching Assistant, SNU Principles and Applications of Data Science (2023).'
+      - bullet: 'Conference reviewer: NeurIPS 2026 and ICLR 2027.'
+    Skills:
+      - name: Programming
+        keywords: [Python, C, C++, Java, MATLAB, Mathematica]
+      - name: Machine Learning
+        keywords: [PyTorch, JAX, TensorFlow, NumPy]
+      - name: Quantum Computing
+        keywords: [Qiskit, Cirq, PennyLane, TensorFlow Quantum]
+    Languages:
+      - name: Korean
+        fluency: Native
+      - name: English
+        fluency: Professional
