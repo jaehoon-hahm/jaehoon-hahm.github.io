@@ -209,12 +209,3 @@ html[data-theme-setting="light"] {
 
 /* Keep CV dates aligned when locations have different text lengths. */
 .cv .date-column table.table-cv { width: 100%; table-layout: fixed; }
-
-/* Plain presentation label directly beneath the venue badge. */
-.abbr .presentation-label {
-  margin-top: 0.25rem;
-  color: var(--global-theme-color);
-  font-size: 0.82rem;
-  font-weight: 600;
-  text-align: center;
-}
